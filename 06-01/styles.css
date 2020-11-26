@@ -11,7 +11,7 @@ a[href$=".com"] {
 	margin: 0px 0px 0px 50px;
 }
 a[lang|="en"],
-a[lang*="en"] {
+a[lang^="en"] {
 	font-size: 10px;
 }
 
