@@ -16,7 +16,7 @@ a:hover {
 button[disabled]:disabled {
 	border: 2px dashed grey;
 }
-button:enabled {
+button:hover {
 	background-color: grey;
 	color: white;
 }
