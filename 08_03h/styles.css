@@ -9,8 +9,9 @@ div {
 /* div {
 	background-color: white;
 } */
-div {
+body > div {
 	background-color: blue;
+	margin: 50px;
 }
 div > div {
 	background-color: yellow;
