@@ -2,6 +2,9 @@
 	padding: 50px;
 	box-sizing: border-box;
 }
+body {
+	margin: 0px 100px 0px 100px;
+}
 div {
 	border: 2px solid;
 }
