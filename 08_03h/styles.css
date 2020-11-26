@@ -1,0 +1,20 @@
+* {
+	padding: 50px;
+}
+div {
+	border: 2px solid;
+	background-color: aqua;
+}
+
+body > div {
+	background-color: blue;
+}
+body > div > div {
+	background-color: yellow;
+}
+body > div > div > div {
+	background-color: green;
+}
+body > div > div > div > div {
+	background-color: pink;
+}
