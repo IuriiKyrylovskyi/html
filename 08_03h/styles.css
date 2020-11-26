@@ -6,18 +6,18 @@ div {
 	border: 2px solid;
 	padding: 50px;
 }
-div {
+/* div {
 	background-color: white;
-}
-div > div {
+} */
+div {
 	background-color: blue;
 }
-div > div > div {
+div > div {
 	background-color: yellow;
 }
-div > div > div > div {
+div > div > div {
 	background-color: green;
 }
-div > div > div > div > div {
+div > div > div > div {
 	background-color: pink;
 }
