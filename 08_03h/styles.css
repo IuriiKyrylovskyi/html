@@ -1,22 +1,23 @@
 * {
 	box-sizing: border-box;
 }
-body {
-}
+
 div {
 	border: 2px solid;
 	padding: 50px;
 }
-
-body > div {
+div {
+	background-color: white;
+}
+div > div {
 	background-color: blue;
 }
-body > div > div {
+div > div > div {
 	background-color: yellow;
 }
-body > div > div > div {
+div > div > div > div {
 	background-color: green;
 }
-body > div > div > div > div {
+div > div > div > div > div {
 	background-color: pink;
 }
