@@ -1,9 +1,9 @@
 * {
 	padding: 50px;
+	/* box-sizing: border-box; */
 }
 div {
 	border: 2px solid;
-	background-color: aqua;
 }
 
 body > div {
