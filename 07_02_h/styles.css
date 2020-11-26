@@ -17,7 +17,7 @@ input {
 	border: 3px solid red;
 }
 .hello {
-	background-color: white;
+	background-color: white !important;
 }
 #special {
 	border: 2px solid blue;
@@ -31,10 +31,10 @@ input[type="text"] {
 div:nth-child(3) p {
 	background-color: yellow;
 }
-div:nth-child(3) p:nth-child(2) {
+div:nth-child(3) p:nth-of-type(2) {
 	border: 5px solid white;
 }
-div:nth-child(3) em {
+div:nth-child(3) p em {
 	color: white;
 	font-size: 20px;
 }
