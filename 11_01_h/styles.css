@@ -8,11 +8,14 @@ ul {
 div.text {
 	position: relative;
 	margin: 16px;
-	/* text-decoration: underline; */
 	border-bottom: 1px dotted black;
 	display: inline-block;
 }
+div.text:hover span.tooltip{
+	display: inline-block;
+}
 span.tooltip {
+	display: none;
 	background-color: grey;
 	color: white;
 	border-radius: 4px;
