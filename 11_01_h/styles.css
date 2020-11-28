@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+div.text {
+	position: relative;
+	margin: 16px;
+	/* text-decoration: underline; */
+	border-bottom: 1px dotted black;
+	display: inline-block;
+}
+span.tooltip {
+	background-color: grey;
+	color: white;
+	border-radius: 4px;
+	padding: 8px;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+}
