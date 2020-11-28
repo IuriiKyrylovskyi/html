@@ -1,13 +1,13 @@
-* {
+/* * {
 	box-sizing: border-box;
-}
+} */
 .articles {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 .articles > div {
 	height: 100px;
-	width: 110px;
+	width: 150px;
 	background-color: beige;
 	margin: 16px;
 }
@@ -21,6 +21,6 @@
 	cursor: all-scroll;
 }
 .vertical-scroll {
-	overflow-y: auto;
+	overflow-y: scroll;
 	cursor: all-scroll;
 }
