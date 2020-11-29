@@ -1,7 +1,11 @@
 * {
 	box-sizing: border-box;
 }
+* {
+	font-family: Verada;
+}
 pre {
 	margin: 0;
-	font-size: 12.5px;
+	/* font-size: 12.5px; */
+	font-size: 10px;
 }
