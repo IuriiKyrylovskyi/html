@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Roboto;
 }
 /* ul {
 	margin: 0;
@@ -26,5 +26,4 @@ li {
 .third {
 	text-decoration: underline;
 	text-decoration-color: green;
-	padding-bottom: 5px;
 }
