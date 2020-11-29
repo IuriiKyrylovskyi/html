@@ -1,6 +1,6 @@
-* {
+/* * {
 	box-sizing: border-box;
-}
+} */
 body {
 	font-family: Roboto;
 }
@@ -15,6 +15,7 @@ li {
 .container {
 }
 .list {
+	font-size: 1em;
 }
 .first {
 	text-decoration: overline;
@@ -24,6 +25,8 @@ li {
 	text-decoration: line-through;
 }
 .third {
-	text-decoration: underline;
-	text-decoration-color: green;
+	/* text-decoration: underline; */
+	/* text-decoration-color: green; */
+	border-bottom: 2px solid green;
+	display: inline-block;
 }
