@@ -29,5 +29,5 @@ li {
 .third {
 	text-decoration: underline;
 	text-decoration-color: green;
-	line-height: normal;
+	padding: 2px;
 }
