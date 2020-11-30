@@ -1,23 +1,17 @@
-* {
-	box-sizing: border-box;
-}
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* ul {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0;
-	padding-bottom: 0;
+	margin: 0;
+	padding: 0;
 } */
 li {
 	list-style-type: none;
-	font-size: 1.5em;
 }
 .container {
 }
-.list {
-	font-size: 16px;
+.list {	font-size: 1.5em;
+
 }
 .first {
 	text-decoration: overline;
@@ -29,5 +23,4 @@ li {
 .third {
 	text-decoration: underline;
 	text-decoration-color: green;
-	padding-bottom: 0px;
 }
