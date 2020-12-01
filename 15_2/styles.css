@@ -1,8 +1,8 @@
 * {
 	box-sizing: border-box;
 }
-video{
+video {
 	display: block;
-	max-width: 500px;
+	width: 500px;
 	margin: 200px auto 0;
 }
