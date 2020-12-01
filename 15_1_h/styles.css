@@ -15,7 +15,6 @@ span.image-button {
 	position: absolute;
 	display: block;
 	width: 200px;
-	height: 50px;
 	background-color: bisque;
 	filter: opacity(0.5);
 	font-size: 12px;
