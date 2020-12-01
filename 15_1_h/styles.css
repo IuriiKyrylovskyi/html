@@ -11,7 +11,7 @@
 	margin: 0 auto;
 }
 
-span.image-button {
+.image-button {
 	position: absolute;
 	display: block;
 	width: 200px;
@@ -21,7 +21,7 @@ span.image-button {
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
-	line-height: 50px;
+	line-height: 50px !important;
 	top: calc(50% - 25px);
 	left: calc(50% - 100px);
 	cursor: pointer;
