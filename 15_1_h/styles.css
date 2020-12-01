@@ -11,7 +11,7 @@
 	margin: 0 auto;
 }
 
-.image-button {
+span.image-button {
 	position: absolute;
 	display: block;
 	width: 200px;
