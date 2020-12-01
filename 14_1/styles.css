@@ -12,4 +12,5 @@ body {
 .properties-list__item {
 	list-style-type: none;
 	line-height: 32px;
+	padding: 8px;
 }
