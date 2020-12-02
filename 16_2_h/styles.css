@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+.page {
+}
+.login-form {
+	margin: 32px;
+}
+div{
+	margin: 8px;
+}
