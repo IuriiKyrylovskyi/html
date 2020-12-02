@@ -9,3 +9,7 @@
 div{
 	margin: 8px;
 }
+input[type="color"]{
+	width: 50px;
+	height: 27px;
+}
