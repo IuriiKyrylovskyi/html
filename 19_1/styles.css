@@ -1,6 +1,8 @@
 * {
 	box-sizing: border-box;
 }
+.square {
+}
 .container {
 	margin: 32px;
 }
@@ -17,6 +19,7 @@
 .rect:hover {
 	width: 100%;
 	opacity: 1;
+	transition: all 2s;
 }
 .linear:hover {
 	transition: linear 2s;
