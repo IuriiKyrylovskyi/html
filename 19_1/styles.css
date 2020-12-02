@@ -21,18 +21,18 @@
 	opacity: 1;
 	transition: width 2s, opacity 2s;
 }
-.linear:hover {
+.linear {
 	transition-timing-function: linear;
 }
-.ease:hover {
+.ease {
 	transition-timing-function: ease;
 }
-.ease-in:hover {
+.ease-in {
 	transition-timing-function: ease-in;
 }
-.ease-out:hover {
+.ease-out {
 	transition-timing-function: ease-out;
 }
-.ease-in-out:hover {
+.ease-in-out {
 	transition-timing-function: ease-in-out;
 }
