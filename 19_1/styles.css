@@ -19,9 +19,9 @@
 .rect:hover {
 	width: 100%;
 	opacity: 1;
-	transition: width 2s, opacity 2s;
+	transition: width 2s, opacity 0.5s;
 }
-/* .linear {
+.linear {
 	transition-timing-function: linear;
 }
 .ease {
@@ -35,8 +35,8 @@
 }
 .ease-in-out {
 	transition-timing-function: ease-in-out;
-} */
-.rect:nth-child(1) {
+}
+/* .rect:nth-child(1) {
 	transition-timing-function: linear;
 }
 .rect:nth-child(2){
@@ -50,4 +50,4 @@
 }
 .rect:nth-child(5) {
 	transition-timing-function: ease-in-out;
-}
+} */
