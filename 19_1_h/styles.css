@@ -26,5 +26,5 @@
 	height: 4px;
 	background-color: #000000;
 	border-radius: 2px;
-	animation: blinking linear 2s infinite, moving linear 2s infinite;
+	animation: blinking linear 2s infinite, moving linear 2s infinite alternate;
 }
