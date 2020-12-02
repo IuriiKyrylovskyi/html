@@ -17,20 +17,19 @@
 .rect:hover {
 	width: 100%;
 	opacity: 1;
-	transition-duration: 2s;
 }
-.linear {
-	transition-timing-function: linear;
+.linear:hover {
+	transition: linear 2s;
 }
-.ease {
-	transition-timing-function: ease;
+.ease:hover {
+	transition: ease 2s;
 }
-.ease-in {
-	transition-timing-function: ease-in;
+.ease-in:hover {
+	transition: ease-in 2s;
 }
-.ease-out {
-	transition-timing-function: ease-out;
+.ease-out:hover {
+	transition: ease-out 2s;
 }
-.ease-in-out {
-	transition-timing-function: ease-in-out;
+.ease-in-out:hover {
+	transition: ease-in-out 2s;
 }
