@@ -7,6 +7,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: monospace;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 .spinner {
 }
@@ -21,9 +24,6 @@
 	animation: rotate 2s linear infinite;
 }
 .spinner-text {
-	font-family: monospace;
-	font-size: 16px;
-	text-transform: uppercase;
 	animation: blinking 2s linear infinite;
 }
 @keyframes blinking {
@@ -41,7 +41,7 @@
 	0% {
 		transform: rotate(0);
 	}
-	
+
 	100% {
 		transform: rotate(360deg);
 	}
