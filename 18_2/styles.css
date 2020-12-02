@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+button {
+	margin: 64px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	background-color: coral;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+button:hover {
+	color: darkcyan;
+}
+
+.bird-btn svg {
+	width: 32px;
+	height: 32px;
+	fill: #ffffff;
+	vertical-align: middle;
+}
+.bird-btn:hover svg{
+	fill: darkcyan;
+}
+.account-btn {
+}
