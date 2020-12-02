@@ -19,20 +19,20 @@
 .rect:hover {
 	width: 100%;
 	opacity: 1;
-	transition: all 2s;
+	transition: width 2s, opacity 2s;
 }
 .linear:hover {
-	transition: linear 2s;
+	transition-timing-function: linear;
 }
 .ease:hover {
-	transition: ease 2s;
+	transition-timing-function: ease;
 }
 .ease-in:hover {
-	transition: ease-in 2s;
+	transition-timing-function: ease-in;
 }
 .ease-out:hover {
-	transition: ease-out 2s;
+	transition-timing-function: ease-out;
 }
 .ease-in-out:hover {
-	transition: ease-in-out 2s;
+	transition-timing-function: ease-in-out;
 }
