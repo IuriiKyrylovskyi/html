@@ -1,16 +1,13 @@
 * {
 	box-sizing: border-box;
 }
-.content{
-	margin-left: 1px;
-}
+
 span {
 	text-transform: lowercase;
 	font-family: Verdana;
 	padding: 8px;
 	background-color: #faebd7;
 	border-radius: 4px;
-	
 }
 /* .container {
 }
@@ -89,5 +86,8 @@ span {
 	}
 	.container > div:last-child {
 		flex: 0 0 33.333%;
+	}
+	.content {
+		margin-left: 1px;
 	}
 }
