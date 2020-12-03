@@ -1,10 +1,12 @@
 * {
 	box-sizing: border-box;
 }
-
+.content{
+	margin-left: 1px;
+}
 span {
 	text-transform: lowercase;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana;
 	padding: 8px;
 	background-color: #faebd7;
 	border-radius: 4px;
