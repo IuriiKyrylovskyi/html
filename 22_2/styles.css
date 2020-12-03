@@ -8,7 +8,7 @@ span {
 	padding: 8px;
 	background-color: #faebd7;
 	border-radius: 4px;
-	margin: auto;
+	
 }
 /* .container {
 }
@@ -57,6 +57,8 @@ span {
 .container > div {
 	display: flex;
 	height: 200px;
+	justify-content: center;
+	align-items: center;
 }
 .navigation {
 	background-color: #ff7f50;
