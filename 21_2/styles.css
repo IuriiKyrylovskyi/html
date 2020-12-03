@@ -17,13 +17,14 @@
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .ideas {
+	display: flex;
+	text-align: center;
 	width: 20%;
 	background-color: #5af;
-	display: flex;
 }
 .idea {
+	display: inline-block;
 	margin: auto;
-	width: 100%;
 	color: #fff;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -31,5 +32,4 @@
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	text-align: center;
 }
