@@ -1,0 +1,67 @@
+.container > div {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  background-color: #ff7f50;
+}
+
+.product-list {
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    flex: 0 0 50%;
+  }
+
+  .product-list {
+    flex: 0 0 50%;
+  }
+
+  .news {
+    flex: 0 0 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navigation {
+    flex: 0 0 33.333%;
+  }
+
+  .product-list {
+    flex: 0 0 33.333%;
+  }
+
+  .news {
+    flex: 0 0 33.333%;
+  }
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  text-transform: lowercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+span {
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=styles.css.map */
