@@ -10,7 +10,7 @@ span {
 	border-radius: 4px;
 	margin: auto;
 }
-.container {
+/* .container {
 }
 .products > div {
 }
@@ -49,6 +49,41 @@ span {
 	.news {
 		flex-grow: 1;
 	}
+} */
+.content {
 }
-@media screen and (orientation: portrait) {
+.container {
+}
+.container > div {
+	display: flex;
+	height: 200px;
+}
+.navigation {
+	background-color: #ff7f50;
+}
+.product-list {
+	background-color: #006400;
+}
+.news {
+	background-color: #0ff;
+}
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.container > div {
+		flex: 0 0 50%;
+	}
+	.container > div:last-child {
+		flex: 0 0 100%;
+	}
+}
+@media screen and (min-width: 900px) {
+	.container > div {
+		flex: 0 0 33.333%;
+	}
+	.container > div:last-child {
+		flex: 0 0 33.333%;
+	}
 }
