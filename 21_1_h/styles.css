@@ -39,11 +39,12 @@ body {
 	list-style-type: none;
 	background-color: #808080;
 	color: #fff;
-	line-height: 2em;
+	height: 2em;
 	margin-bottom: 0.5em;
 	display: flex;
 }
 .nav-list-link {
+	width: 100%;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	text-decoration: none;
@@ -65,7 +66,7 @@ body {
 	text-align: center;
 }
 
-.units-list li {
+.units-list {
 	line-height: 1.75em;
 }
 .css-units {
