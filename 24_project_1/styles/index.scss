@@ -1,0 +1,93 @@
+@import "variables";
+@import "mixins";
+@import "null";
+@import "breakpoints";
+
+//<Подключаем шрифты>=========================================================
+// @font-face {
+// 	font-family: "balqis";
+// 	src: url("../fonts/balqis.woff2") format("woff2"), url("../fonts/balqis.woff") format("woff");
+// 	font-weight: 400;
+// 	font-style: normal;
+// 	font-display: swap;
+// }
+//</Подключаем шрифты>========================================================
+//&display=swap
+//&subset=cyrillic-ext ----- ru
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap");
+//<Шрифт по умолчанию>==============================
+
+//</ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>==============================================
+body {
+	color: #000;
+	font-size: 12px;
+	&._lock {
+		overflow: hidden;
+	}
+}
+//<ОБОЛОЧКА>========================================
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	&._loaded {
+	}
+}
+
+//</ОБОЛОЧКА>==================================================================
+
+//<ОСНОВНАЯ СЕТКА>====================================
+._container {
+	max-width: $mw + px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 10px;
+	// @media (max-width: $md1+px) {
+	// 	max-width: 970px;
+	// }
+	// @media (max-width: $md2+px) {
+	// 	max-width: 750px;
+	// }
+	// @media (max-width: $md3+px) {
+	// 	max-width: none;
+	// }
+}
+
+//<BUTTONS>====================================================================================================
+.btn {
+	display: inline-flex;
+	flex: 0 0 100px;
+	min-width: 100px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	background: orangered;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	transition: $tr;
+	&:hover {
+		background: rgba(255, 91, 20, 0.7);
+	}
+	&.fw {
+		width: 100%;
+	}
+	@media (max-width: 1130px) {
+		flex: 0 0 80px;
+		min-width: 80px;
+		height: 40px;
+	}
+}
+//</BUTTONS>====================================================================================================
+
+//</ОСНОВНАЯ СЕТКА>=============================================
+
+//<ОСНОВНОЙ БЛОК>===================================
+// .wrapper {
+// }
+
+//</ОСНОВНОЙ БЛОК>=============================================================

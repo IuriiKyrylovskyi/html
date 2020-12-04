@@ -1,0 +1,15 @@
+@mixin br-large {
+	@media screen and (max-width: $br1) {
+		@content;
+	}
+}
+@mixin br-mobile {
+	@media screen and (max-width: $br2) {
+		@content;
+	}
+}
+@mixin br-middle {
+	@media screen and (max-width: $br-mid) {
+		@content;
+	}
+}
