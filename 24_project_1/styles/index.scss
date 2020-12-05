@@ -39,72 +39,6 @@ body {
 	// 	max-width: none;
 	// }
 }
-
-//</ОСНОВНАЯ СЕТКА>=============================================
-
-.audience {
-	background-color: hsla(191, 100%, 39%, 0.07);
-	text-align: center;
-	padding: 50px 0px;
-	@include br-mobile {
-		padding: 110px 10px;
-	}
-
-	&__content {
-		max-width: 555px;
-		margin: 0 auto;
-	}
-	&__suptitle {
-		font-weight: 700;
-		@include br-mobile {
-			font-size: 22px;
-			line-height: 34px;
-		}
-	}
-
-	&__title {
-		font-size: 40px;
-		font-weight: 700;
-		line-height: 40px;
-		letter-spacing: -0.357143px;
-		margin: 18px auto;
-		@include br-mobile {
-			font-size: 56px;
-			line-height: 56px;
-			letter-spacing: -0.5px;
-			margin: 24px auto 30px;
-		}
-	}
-
-	&__text {
-		line-height: 34px;
-		padding: 0 15px;
-		@include br-mobile {
-			padding: 0;
-		}
-	}
-	&__btn-box {
-		display: flex;
-		flex-direction: column;
-		margin: 30px 0px 40px 0px;
-		@include br-mobile {
-			flex-direction: row;
-			margin: 34px 0px 110px 0px;
-			justify-content: center;
-		}
-	}
-
-	&__row {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		margin: -7.5px -15px;
-		@include br-mobile {
-			margin: -15px;
-		}
-	}
-}
-
 .btn {
 	height: 48px;
 	font-weight: 700;
@@ -135,41 +69,12 @@ body {
 		background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%), #ffffff;
 	}
 }
-.card {
-	flex: 1 0 262px;
-	min-width: 215px;
-	max-width: 290px;
-	height: 300px;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%), #ffffff;
-	background-blend-mode: overlay, normal;
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-		inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-	border-radius: 8px;
-	padding: 22px 0px 33px 0px;
-	margin: 7.5px 15px;
-	cursor: pointer;
-	@include br-mobile {
-		margin: 15px;
-	}
-	&__img {
-		img {
-			max-width: 100%;
-		}
-	}
+//</ОСНОВНАЯ СЕТКА>=============================================
+@import "header";
+@import "build";
+@import "what";
+@import "brands";
+@import "audience";
 
-	&__label {
-		font-weight: 700;
-		font-size: 22px;
-		line-height: 28px;
-		margin: 22px 0px 0px 0px;
-	}
-	&:hover {
-		background: #3141c5;
-		transition: $tr;
-		.card__label {
-			color: #fff;
-		}
-	}
-}
 
 //</ОСНОВНОЙ БЛОК>=============================================================

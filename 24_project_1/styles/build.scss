@@ -1,0 +1,57 @@
+.build {
+	background: hsl(10, 69%, 85%);
+	padding: 36px 0 33px;
+	@include br-pad {
+		height: calc(100vh - 156px);
+		padding: 36px 0 77px;
+	}
+	&__content-box {
+		position: relative;
+	}
+
+	&__content {
+		@include br-pad {
+			position: absolute;
+			z-index: 1;
+		}
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 50px;
+		letter-spacing: -0.3125px;
+		@include br-pad {
+			font-size: 80px;
+			line-height: 78px;
+			letter-spacing: -0.5px;
+			max-width: 755px;
+		}
+	}
+
+	&__text {
+		line-height: 34px;
+		margin: 30px 0 25px;
+		@include br-pad {
+			max-width: 455px;
+			margin: 34px 0 58px;
+		}
+	}
+
+	&__btn-box {
+		@include br-pad {
+			display: flex;
+		}
+	}
+
+	&__bg {
+		margin: 36px 0 0px;
+		@include br-pad {
+			transform: translateX(40%);
+			margin: 0;
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+}

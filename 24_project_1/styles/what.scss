@@ -1,0 +1,31 @@
+.what {
+	background: #f4f5f7;
+	padding: 26px 5px;
+	@include br-mobile {
+		padding: 77px 0px;
+	}
+
+	&__row {
+		@include br-mobile {
+			display: flex;
+		}
+	}
+
+	&__colunm {
+		font-size: 22px;
+		line-height: 32px;
+		margin: 20px 0;
+		@include br-mobile {
+			flex: 0 0 50%;
+			padding: 0 20px 0 0;
+		}
+	}
+
+	&__label {
+		font-weight: 700;
+		margin: 0px 0px 10px 0px;
+	}
+
+	&__text {
+	}
+}
